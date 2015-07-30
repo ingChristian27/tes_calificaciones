@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app_calificaciones" lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Calificaciones">
+	<!--<meta name="keywords" content="HTML5">-->
+	<title>Calificaciones</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="screen" />
+</head>
+<body>
+
+
+<menu-top></menu-top>
+
+<menu-prueba></menu-prueba>
+
+<div class="container">
+	<div ng-view> </div>
+</div>
+
+<pie-pagina></pie-pagina>
+
+<script src="app/lib/angular-route.min.js"></script>
+<script src="app/app.js"></script>
+<script src="app/controllers/controllers.js"></script>
+<script src="app/directivas/directivas.js"></script>
+
+</body>
+</html>
